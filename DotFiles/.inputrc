@@ -1,0 +1,21 @@
+###################
+#     INPUTRC     #
+###################
+
+# Turn Bell Off:
+set bell-style none
+
+# Blink Matching Parenthesis:
+set blink-matching-paren on
+
+# Colored Stats:
+set colored-stats on
+
+# Treat Hyphens And Underscores As Equivalent:
+set completion-map-case on
+
+# Completion Query Items:
+set completion-query-items 500
+
+# Stop New Line Copying From Running Command On Paste:
+set enable-bracketed-paste on
