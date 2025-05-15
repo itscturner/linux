@@ -1,7 +1,7 @@
-Linux
-
+**`Linux`**
+<br/>
 $HOME, Sweet $HOME.
-
+<br/>
 |  DIRECTORY:  |  DESCRIPTION:              |
 | ------------ | -------------------------- |
 |/boot         |  Boot Loader Files         |
