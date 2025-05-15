@@ -2,9 +2,9 @@ Linux
 
 $HOME, Sweet $HOME.
 
-DIRECTORY:      DESCRIPTION:<br/>
-/boot           Boot Loader Files<br/>
-/etc            Configuration Files<br/>
+"DIRECTORY:      DESCRIPTION:"<br/>
+"/boot           Boot Loader Files"<br/>
+"/etc            Configuration Files"<br/>
 /home           User Home Directories<br/>
 /root           Root Home Directory<br/>
 /opt            Third-Party Applications<br/>
