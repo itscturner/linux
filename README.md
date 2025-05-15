@@ -3,6 +3,7 @@ Linux
 <p>$HOME, Sweet $HOME.
 </p>
 <br>
+
 |  DIRECTORY:  |  DESCRIPTION:              |
 | ------------ | -------------------------- |
 |/boot         |  Boot Loader Files         |
