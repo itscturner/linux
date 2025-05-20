@@ -12,13 +12,6 @@ alias gitconfig='vim ~/.gitconfig'
 alias inputrc='vim ~/.inputrc'
 alias profile='vim ~/.profile'
 alias vimrc='vim ~/.vimrc'
-alias tmuxconfig='vim ~/.tmux.conf'
-
-# Notes:
-alias notes='vim ~/Notes/Notes'
-alias kubernetes-notes='vim ~/Notes/Kubernetes-Notes'
-alias tmux-notes='vim ~/Notes/TMUX-Notes'
-alias python-notes='vim ~/Notes/Python-Notes'
 
 # Bash Completion:
 if [ -f /usr/share/bash-completion/bash_completion ]; then
@@ -71,10 +64,6 @@ ns() {
 
 # Less:
 LESSHISTSIZE=0
-
-# SSH:
-alias raspberrypi='ssh raspberrypi'
-alias rpi='ssh raspberrypi'
 
 # Prompt:
 export PS1="[\u@\h \[\e[01;36m\]\W \e[01;91m\]\$(git_branch)\[\e[00m\]]$  "
