@@ -1,9 +1,9 @@
 [user]
-  name = 
-  email = 
+  name = "itscturner"
+  email = "itscturner5@gmail.com"
 
 [core]
-  editor = nvim
+  editor = vim
 
 [alias]
   aliases = config --get-regexp '^alias\\.'
