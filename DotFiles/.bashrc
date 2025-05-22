@@ -47,6 +47,18 @@ HISTSIZE=5000
 HISTFILESIZE=5000
 HISTTIMEFORMAT='%m/%d/%Y  %T  "
 shopt -s histappend
+LESSHISTSIZE=0
+
+# Less:
+export LESS_TERMCAP_mb=$'\e[1;34m'    # mb = Start Blink
+export LESS_TERMCAP_md=$'\e[1;34m'    # mb = Start Bold
+export LESS_TERMCAP_so=$'\e[1;33m'    # mb = Start Standout - Help Line
+export LESS_TERMCAP_us=$'\e[1;4;31m'  # mb = Start Underline
+export LESS_TERMCAP_me=$'\e[0m'       # mb = Turn Off Bold, Blink and Underline
+export LESS_TERMCAP_se=$'\e[0m'       # mb = Stop Standout
+export LESS_TERMCAP_ue=$'\e[0m'       # mb = Stop Underline
+export GRODD_NO_SGR=1
+export MANPAGER='less -a -M +Gg'
 
 # Git:
 git_branch() {
@@ -61,9 +73,6 @@ ns() {
   kubectl config set-context --current --namespace=$1 > /dev/null 2>&1
   echo "Default namespace changed to $1."
 }
-
-# Less:
-LESSHISTSIZE=0
 
 # Prompt:
 export PS1="[\u@\h \[\e[01;36m\]\W \e[01;91m\]\$(git_branch)\[\e[00m\]]$  "
