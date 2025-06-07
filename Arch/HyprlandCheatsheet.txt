@@ -1,0 +1,52 @@
+NOTE: The 'Mod' key is the Meta/Super key.  You can change the 'Mod' key in your Hyprland config.
+
+# APPLICATION SHORTCUTS
+Launch Terminal - Mod + T/Enter
+Launch File Manager - Mod + N
+Launch GitHub Desktop - Mod + F5
+
+# LAUNCHERS
+Launch App Finder (Wofi) - Mod
+????? Launch Bar - Mod + Shift + e
+????? Launch App Drawer - Mod + Shift + d
+
+# WINDOW FLEXIBILITY & SYSTEM COMMANDS
+Kill Active Window - Mod + q
+Scroll Existing Workspaces - Mod + Mouse Scroll
+Reload Hyprland Configuration - Mod + Shift + r
+Full Screen - Mod + f
+Move Windows - Mod + Left Mouse Click
+Resize Windows - Mod + Right Mouse Click
+
+# FOCUS ON WINDOWS IN WORKSPACES
+Focus On Left Window - Mod + Left Arrow Key
+Focus On Right Window - Mod + Right Arrow Key
+Focus On Upper Window - Mod + Up Arrow Key
+Focus On Lower Window - Mod + Down Arrow Key
+
+# MOVE WINDOWS IN WORKSPACES
+Move To Left Window - Mod + Shift + Left Arrow Key
+Move To Right Window - Mod + Shift + Right Arrow Key
+Move To Upper Window - Mod + Shift + Up Arrow Key
+Move To Lower Window - Mod + Shift + Down Arrow Key
+
+# SWITCH WORKSPACES
+Move To Workspace 1 - Mod + 1
+Move To Workspace 2 - Mod + 2
+Move To Workspace 3 - Mod + 3
+Move To Workspace 4 - Mod + 4
+Move To Workspace 5 - Mod + 5
+
+# MOVE TO WORKSPACE WITH FOCUSED CONTAINER
+Move With Window To Workspace 1 - Alt + Shift + 1
+Move With Window To Workspace 2 - Alt + Shift + 2
+Move With Window To Workspace 3 - Alt + Shift + 3
+Move With Window To Workspace 4 - Alt + Shift + 4
+Move With Window To Workspace 5 - Alt + Shift + 5
+
+# MOVE AN ACTIVE WINDOW TO A WORKSPACE SILENTLY
+Move Window Only To Workspace 1 - Mod + Shift + 1
+Move Window Only To Workspace 2 - Mod + Shift + 2
+Move Window Only To Workspace 3 - Mod + Shift + 3
+Move Window Only To Workspace 4 - Mod + Shift + 4
+Move Window Only To Workspace 5 - Mod + Shift + 5
