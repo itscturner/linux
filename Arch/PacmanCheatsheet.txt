@@ -1,19 +1,38 @@
 PACMAN CHEATSHEET
 
-# INSTALL / REMOVE / UPGRADE PACKAGES:
-pacman -Syu <pkg>      Install (and update package list)
-pacman -S <pkg>        Install only
-pacman -Rsc <pkg>	     Uninstall
-pacman -Ss <keywords>	 Search
-pacman -Syu	           Upgrade everything
+# INSTALL PACKAGES
+Install Package: pacman -S <package>
+Install Package And Update Package List: pacman -Syu <package>
+Install Package From Local Location: pacman -U /path/to/local/<package>
+Reinstall All Repo-Based Packages (During Emergencies): pacman -Qnq | pacman -S -
 
-# QUERY PACKAGES:
-pacman -Qe	           List explictly-installed packages
-pacman -Ql <pkg>	     What files does this package have?
-pacman -Qii <pkg>	     List information on package
-pacman -Qo <file>	     Who owns this file?
-pacman -Qs <query>	   Search installed packages for keywords
+# REMOVE PACKAGES
+Remove Package: pacman -R <package>
+Remove Package And Dependencies Not Tied To Other Packages: pacman -Rs <package>
+Remove Package, Dependencies And Configuration: pacman -Rns <package>
 
-# DEPENDENCIES:
-pactree <pkg>	         What does pkg depend on?
-pactree -r <pkg>	     What depends on pkg?
+# UPDATE PACKAGES / SYSTEM
+Update System: pacman -Syu
+Only Update Software Database: pacman -Syy
+
+# QUERY PACKAGES
+List Installed Packages: pacman -Qn
+Search For Installed Packages: pacman -Qs <package>
+Search For Packages: pacman -Ss <package>
+List Information About A Package: pacman -Qii <package>
+List Files Included In A Package: pacman -Ql <package>
+List Packages No Longer Required By Others: pacman -Qdtq
+
+# ORPHAN PACKAGES
+List Unneeded Packages: pacman -Qdt
+Uninstall Unneeded Packages: pacman -Rns $(pacman -Qdtq)
+
+# DEPENDENCIES
+What Does A Package Depend On: pactree <package>
+What Depends On A Package: pactree -r <package>
+
+# CACHE
+Clean Old Packages In Cache: pacman -Sc
+
+# PACMAN LOGS
+/var/log/pacman.log
