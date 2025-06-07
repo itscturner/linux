@@ -1,3 +1,5 @@
+HYPRLAND CHEATSHEET
+
 NOTE: The 'Mod' key is the Meta/Super key.  You can change the 'Mod' key in your Hyprland config.
 
 # APPLICATION SHORTCUTS
