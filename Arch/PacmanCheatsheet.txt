@@ -2,7 +2,7 @@ Pacman Cheatsheet
 
 Install/Remove/Upgrade:
 pacman -Syu <pkg>          Install (and update package list)
-pacman -S <pkg>          Install only
+pacman -S <pkg>            Install only
 pacman -Rsc <pkg>	     Uninstall
 pacman -Ss <keywords>	 Search
 pacman -Syu	           Upgrade everything
