@@ -9,23 +9,23 @@
 
 ##########
 
-# theme = catppuccin-<flavor>.conf
-# background-blur = true
-
-##########
-
+# Theme
+theme                          = catppuccin-frappe.conf
 font-family                    = Symbols Nerd Font Mono
 font-family                    = Roboto Mono
 font-family-bold               = Roboto Mono
 font-family-italic             = Roboto Mono
 font-family-bold-italic        = Roboto Mono
-
-# font-feature                   = calt
-# font-feature                   = liga
-# font-feature                   = ss13
-
 font-size                      = 15
 window-inherit-font-size       = true
+
+# font-feature                 = calt
+# font-feature                 = liga
+# font-feature                 = ss13
+
+# adjust-cell-width = 0
+# adjust-cell-height = 20%
+
 
 # Look and Feel
 adjust-cursor-thickness        = 3
@@ -35,10 +35,16 @@ cursor-invert-fg-bg            = true
 cursor-opacity                 = 0.8
 link-url                       = true
 mouse-hide-while-typing        = true
-theme                          = catppuccin-frappe.conf
 window-vsync                   = true
 
+
+# Background
+background-blur                = true
+background-opacity             = 0.95
+
+
 # Other
+clipboard-read                 = "allow"
 clipboard-paste-protection     = true
 clipboard-trim-trailing-spaces = true
 copy-on-select                 = true
@@ -48,6 +54,7 @@ quit-after-last-window-closed  = true
 scrollback-limit               = 4200
 shell-integration              = fish
 shell-integration-features     = cursor,sudo,title
+
 
 # Key bindings
 keybind                        = ctrl+h=goto_split:left
