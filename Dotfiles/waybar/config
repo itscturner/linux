@@ -1,1 +1,28 @@
-#
+{
+  "layer": "top",
+  "position": "top",
+  "modules-left": ["hyprland/workspaces", "custom/notifications"],
+  "modules-center": ["clock"],
+  "modules-right": ["network", "pulseaudio", "battery", "custom/lock", "custom/power"],
+
+
+  "hyprland/workspaces": {
+    "on-click": "activate",
+    "format": "{icon}",
+    "format-icons": {
+      "1": "",
+      "2": "",
+      "3": "",
+      "default": ""
+    },
+    "persistent-workspaces": [1, 2, 3],
+    
+  },
+
+
+  "custom/notifications": {
+
+
+
+
+  },
