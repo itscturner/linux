@@ -10,6 +10,8 @@ alias ll='ls -lh'
 alias la='ls -lha'
 alias rm='rm -i'
 alias mv='mv -i'
+alias ff='fastfetch'
+alias systemupdate='pacman -Syu'
 
 # EDITOR
 export EDITOR='nvim'
