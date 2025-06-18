@@ -5,7 +5,13 @@
 
 [core]
   editor = nvim
-  
+
+[web]
+  browser = zen-browser
+
+[init]
+  defaultBranch = master
+
 [alias]
   br = branch
   cm = commit
@@ -13,6 +19,7 @@
   df = diff
   ds = diff --staged
   pl = pull
+  ps = push
   st = status
 
 [color]
