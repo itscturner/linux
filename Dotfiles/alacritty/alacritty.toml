@@ -11,14 +11,20 @@ program = "/bin/zsh"
 [window]
 opacity = 0.9
 blur = true
-# padding.x = 10
-# padding.y = 10
 decorations = "buttonless"
 dynamic_padding = false
+
+[window.dimensions]
+columns = 90
+lines = 25
 
 [window.padding]
 x = 25
 y = 20
+
+[window.position]
+x = 1050
+y = 250
 
 [selection]
 save_to_clipboard = true
@@ -26,8 +32,6 @@ save_to_clipboard = true
 
 [mouse]
 hide_when_typing = true
-
-
 
 [font]
 size = 14.0
