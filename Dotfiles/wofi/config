@@ -1,1 +1,10 @@
-
+show=drun
+location=center
+width=750
+height=400
+orientation=vertical
+columns=2
+hide_scroll=true
+allow_images=false
+show_all=false
+insensitive=true
