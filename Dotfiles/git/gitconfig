@@ -1,1 +1,33 @@
 [user]
+  name = cturner
+  email = #####
+  github = itscturner
+
+[core]
+  editor = nvim
+  
+[alias]
+  br = branch
+  cm = commit
+  co = checkout
+  df = diff
+  ds = diff --staged
+  pl = pull
+  st = status
+
+[color]
+  ui = auto
+
+[color "branch"]
+  current = red bold
+  remote = yellow bold
+
+[color "status"]
+  branch = blue bold
+  added = green bold
+  changed = yellow bold
+  untracked = red bold
+
+[color "diff"]
+  old = red bold
+  new = green bold
