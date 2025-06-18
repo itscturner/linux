@@ -1,9 +1,15 @@
 {
   "layer": "top",
   "position": "top",
+  "margin-top": 0,
+  "margin-bottom": 0,
+  "margin-left": 0,
+  "margin-right": 0,
+  "spacing": 0,
   "modules-left": ["hyprland/workspaces", "custom/notifications"],
   "modules-center": ["clock"],
   "modules-right": ["custom/updates", "network", "battery", "pulseaudio", "custom/lock", "custom/power"],
+
 
 
   "hyprland/workspaces": {
@@ -15,7 +21,9 @@
       "3": "",
       "default": ""
     },
-    "persistent-workspaces": [1, 2, 3],
+    "persistent-workspaces": {
+      "*": 3
+    },
     
   },
 
