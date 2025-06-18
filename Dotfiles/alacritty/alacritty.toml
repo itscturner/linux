@@ -1,0 +1,25 @@
+import = [
+  "~/.config/alacritty/themes/catppuccin-frappe.toml"
+]
+
+[env]
+TERM = "xterm-256color"
+
+[font]
+size = 14.0
+
+[font.normal]
+family = "Roboto Mono"
+style = "Regular"
+
+[font.bold]
+family = "Roboto Mono"
+style = "Bold"
+
+[font.bold_italic]
+family = "Roboto Mono"
+style = "Bold Italic"
+
+[font.italic]
+family = "Roboto Mono"
+style = "Italic"
