@@ -44,33 +44,33 @@
 
   "battery": {
     "states": {
-			"warning": 30,
-			"critical": 15
-		},
-		"format": "{icon}",
-		"format-charging": "#####",
-		"format-plugged": "#####",
-		"format-alt": "{icon}",
-		"format-icons": [
-			"#####",
-			"#####",
-			"#####",
-			"#####",
-			"#####"
-		]
+      "warning": 30,
+      "critical": 15
+    },
+    "format": "{icon}",
+    "format-charging": "#####",
+    "format-plugged": "#####",
+    "format-alt": "{icon}",
+    "format-icons": [
+      "#####",
+      "#####",
+      "#####",
+      "#####",
+      "#####"
+    ]
   },
 
   "pulseaudio": {
     "format": "{icon} {volume}%",
-		"format-muted": "#####",
-		"format-icons": {
-			"default": [
-				"#####",
-				"#####",
-				"#####"
-			]
-		},
-		"on-click": "pavucontrol"
+    "format-muted": "#####",
+    "format-icons": {
+      "default": [
+        "#####",
+        "#####",
+        "#####"
+      ]
+    },
+    "on-click": "pavucontrol"
   },
 
   "custom/lock": {
