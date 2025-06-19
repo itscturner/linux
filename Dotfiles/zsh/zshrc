@@ -42,3 +42,16 @@ HYPHEN_INSENSITIVE="true"
 
 # PROMPT
 
+
+
+# ZSHRC SYNTAX HIGHLIGHTING THEME
+source ~/.config/zsh/themes/frappe-zsh-syntax-highlighting.zsh
+
+
+# PLUGINS
+plugins=(zsh-syntax-highlighting)
+
+
+
+
+
