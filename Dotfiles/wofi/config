@@ -8,3 +8,4 @@ hide_scroll=true
 allow_images=false
 show_all=false
 insensitive=true
+term=ghostty
