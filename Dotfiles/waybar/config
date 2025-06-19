@@ -10,27 +10,79 @@
   "modules-center": ["clock"],
   "modules-right": ["custom/updates", "network", "battery", "pulseaudio", "custom/lock", "custom/power"],
 
-
-
   "hyprland/workspaces": {
     "on-click": "activate",
     "format": "{icon}",
     "format-icons": {
-      "1": "",
-      "2": "",
-      "3": "",
+      "1": "#####",
+      "2": "#####",
+      "3": "#####",
       "default": ""
     },
     "persistent-workspaces": {
       "*": 3
     },
-    
-  },
-
-
+  }, 
+  
   "custom/notifications": {
-
-
-
-
   },
+
+  "clock": {
+    "format": "<span foreground='#f5c2e7'>   </span>{:%a %d %H:%M}",
+    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
+  },
+
+  "custom/updates": {
+  },
+
+  "network": {
+    "format-wifi": "<span size='13000' foreground='#f5e0dc'>  </span>{essid}",
+    "format-ethernet": "<span size='13000' foreground='#f5e0dc'>󰤭  </span> Disconnected",
+    "format-disconnected": "<span size='13000' foreground='#f5e0dc'>  </span>Disconnected",
+    "tooltip-format-wifi": "Signal Strenght: {signalStrength}%"
+  },
+
+  "battery": {
+    "states": {
+			"warning": 30,
+			"critical": 15
+		},
+		"format": "{icon}",
+		"format-charging": "#####",
+		"format-plugged": "#####",
+		"format-alt": "{icon}",
+		"format-icons": [
+			"#####",
+			"#####",
+			"#####",
+			"#####",
+			"#####"
+		]
+  },
+
+  "pulseaudio": {
+    "format": "{icon} {volume}%",
+		"format-muted": "#####",
+		"format-icons": {
+			"default": [
+				"#####",
+				"#####",
+				"#####"
+			]
+		},
+		"on-click": "pavucontrol"
+  },
+
+  "custom/lock": {
+    "tooltip-format": "Lock",
+    "on-click": "hyprlock &",
+    "format": "#####"
+  },
+
+  "custom/power": {
+    "tooltip-format": "Power",
+    "on-click": "wlogout &",
+    "format": "#####"
+  }
+
+}
