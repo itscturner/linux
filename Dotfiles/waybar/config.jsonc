@@ -9,7 +9,6 @@
 //  "modules-left": ["hyprland/workspaces", "custom/notifications"],
   "modules-left": ["hyprland/workspaces"],
   "modules-center": ["clock"],
-//  "modules-right": ["custom/updates", "network", "battery", "pulseaudio", "custom/lock", "custom/power"],
   "modules-right": ["network", "battery", "pulseaudio", "custom/lock", "custom/power"],
   "hyprland/workspaces": {
     "on-click": "activate",
@@ -29,17 +28,8 @@
   "clock": {
     "format": "<span foreground='#f5c2e7'>   </span>{:%a %d %H:%M}",
     "tooltip": false
-//    "format": "{:%a %d   %H:%M}",
 //    "tooltip-format": "<big>{:%B %Y}</big>\n<tt><small>{calendar}</small></tt>"
   },
-//  "custom/updates": {
-//    "escape": true,
-//    "return-type": "json",
-//    "exec": "~/.config/ml4w/scripts/updates.sh",
-//    "interval": 1800,
-//    "on-click": "~/.config/ml4w/settings/installupdates.sh",
-//    "on-click-right": "~/.config/ml4w/settings/software.sh"
-//  },
   "network": {
     "format-wifi": "<span size='13000' foreground='#f5e0dc'>  </span>{essid}",
     "format-ethernet": "<span size='13000' foreground='#f5e0dc'>󰤭  </span> Disconnected",
