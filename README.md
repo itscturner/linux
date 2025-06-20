@@ -1,6 +1,6 @@
 Linux
 -----
-<p>$HOME, Sweet $HOME.
+<p>$HOME, sweet $HOME.
 </p>
 <br>
 
