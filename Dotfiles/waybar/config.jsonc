@@ -6,89 +6,85 @@
   "margin-left": 0,
   "margin-right": 0,
   "spacing": 0,
-  "modules-left": ["hyprland/workspaces", "custom/notifications"],
+//  "modules-left": ["hyprland/workspaces", "custom/notifications"],
+  "modules-left": ["hyprland/workspaces"],
   "modules-center": ["clock"],
-  "modules-right": ["custom/updates", "network", "battery", "pulseaudio", "custom/lock", "custom/power"],
-
+//  "modules-right": ["custom/updates", "network", "battery", "pulseaudio", "custom/lock", "custom/power"],
+  "modules-right": ["network", "battery", "pulseaudio", "custom/lock", "custom/power"],
   "hyprland/workspaces": {
     "on-click": "activate",
     "format": "{icon}",
     "format-icons": {
-      "1": "#####",
-      "2": "#####",
-      "3": "#####",
+      "1": " ",
+      "2": " ",
+      "3": " ",
       "default": ""
     },
     "persistent-workspaces": {
       "*": 3
     },
   }, 
-  
-  "custom/notifications": {
-  },
-
+//  "custom/notifications": {
+//  },
   "clock": {
     "format": "<span foreground='#f5c2e7'>   </span>{:%a %d %H:%M}",
-    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
+    "tooltip": false
+//    "format": "{:%a %d   %H:%M}",
+//    "tooltip-format": "<big>{:%B %Y}</big>\n<tt><small>{calendar}</small></tt>"
   },
-
-  "custom/updates": {
-    "escape": true,
-    "return-type": "json",
-    "exec": "~/.config/ml4w/scripts/updates.sh",
-    "interval": 1800,
-    "on-click": "~/.config/ml4w/settings/installupdates.sh",
-    "on-click-right": "~/.config/ml4w/settings/software.sh"
-  },
-
+//  "custom/updates": {
+//    "escape": true,
+//    "return-type": "json",
+//    "exec": "~/.config/ml4w/scripts/updates.sh",
+//    "interval": 1800,
+//    "on-click": "~/.config/ml4w/settings/installupdates.sh",
+//    "on-click-right": "~/.config/ml4w/settings/software.sh"
+//  },
   "network": {
     "format-wifi": "<span size='13000' foreground='#f5e0dc'>  </span>{essid}",
     "format-ethernet": "<span size='13000' foreground='#f5e0dc'>󰤭  </span> Disconnected",
     "format-disconnected": "<span size='13000' foreground='#f5e0dc'>  </span>Disconnected",
     "tooltip-format-wifi": "Signal Strenght: {signalStrength}%"
   },
-
   "battery": {
     "states": {
       "warning": 30,
       "critical": 15
     },
-    "format": "{icon}",
-    "format-charging": "#####",
-    "format-plugged": "#####",
+    "format": "{icon} {capacity}%",
+    "format-charging": " {capacity}%",
+    "format-plugged": " ",
     "format-alt": "{icon}",
     "format-icons": [
-      "#####",
-      "#####",
-      "#####",
-      "#####",
-      "#####"
-    ]
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "tooltip-format": "{time}"
   },
-
   "pulseaudio": {
     "format": "{icon} {volume}%",
-    "format-muted": "#####",
+    "format-muted": " Muted",
+    "format-headphones": " ",
     "format-icons": {
       "default": [
-        "#####",
-        "#####",
-        "#####"
+        " ",
+        " ",
+        " "
       ]
     },
     "on-click": "pavucontrol"
   },
-
   "custom/lock": {
     "tooltip-format": "Lock",
     "on-click": "hyprlock &",
-    "format": "#####"
+    "format": " "
   },
-
   "custom/power": {
     "tooltip-format": "Power",
     "on-click": "wlogout &",
-    "format": "#####"
+    "format": " "
   }
-
 }
