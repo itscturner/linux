@@ -1,9 +1,6 @@
 Linux
 -----
 
-![Static Badge](https://img.shields.io/badge/linux-1.0-%23007cb9)
-<br>
-
 <p>$HOME, sweet $HOME.
 </p>
 <br>
