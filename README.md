@@ -1,8 +1,11 @@
 Linux
 -----
 
-<p>$HOME, sweet $HOME.
-</p>
+![Linux](https://skillicons.dev/icons?i=linux) <br>
+<br>
+
+**$HOME, sweet $HOME.**
+<br>
 <br>
 
 |  DIRECTORY:  |  DESCRIPTION:              |
