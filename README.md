@@ -8,7 +8,10 @@ Linux
 <br>
 <br>
 
-|  DIRECTORY:  |  DESCRIPTION:              |
+[Bash Scripts](https://github.com/itscturner/linux/tree/main/scripts) <br>
+<br>
+
+|  DIRECTORY   |  DESCRIPTION               |
 | ------------ | -------------------------- |
 |/boot         |  Boot Loader Files         |
 |/etc          |  Configuration Files       |
