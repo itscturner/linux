@@ -8,6 +8,6 @@ Bash Scripts
 A cross-platform, fault-tolerant Bash script that installs development packages and tools across Ubuntu/Debian (apt), RHEL-based Linux (dnf), and macOS (brew). <br>
 
 [System Information](https://github.com/itscturner/linux/blob/main/scripts/system_information.sh) <br>
-
+A Bash script that gathers and displays system information. <br>
 
 
