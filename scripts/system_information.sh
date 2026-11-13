@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# system_information.sh
+# A Bash script that gathers and displays system information.
+
 echo ""
 echo "----- System Information -----"
 echo "Hostname: $(hostname)"
